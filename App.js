@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 /**
  * 
  * <div id="parent">
@@ -30,5 +32,8 @@ const heading=React.createElement(
       );
 console.log(heading)
 console.log(parent)
+
+//JSX -> complex things can be done throuh JSX
+
 const root=ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
